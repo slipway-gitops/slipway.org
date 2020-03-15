@@ -1,0 +1,55 @@
+baseURL = "http://slipway.org/"
+languageCode = "en-us"
+title = "Slipway"
+theme = "hugo-theme-techdoc"
+DefaultContentLanguage = "en"
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
+[Params]
+
+    # Source Code repository section
+    description = "Slipway Gitops Controller"
+    github_repository = "https://github.com/slipway-gitops/slipway"
+    version = ""
+
+
+    title = "Hugo Techdoc Theme"
+    images = ["images/slipway.png"]
+
+    # Documentation repository section
+    github_doc_repository = "https://github.com/slipway-gitops/slipway.org"
+
+
+    custom_font_color = ""
+    custom_background_color = "#326de5"
+
+    # Documentation Menu section
+    # Menu style settings
+    menu_style = "open-menu" 
+
+
+    # path name excluded from documentation menu
+    menu_exclusion = [
+    ]
+
+# Global menu section
+# See https://gohugo.io/content-management/menus/
+[menu]
+  [[menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+
+
+# Markup configure section
+# See https://gohugo.io/getting-started/configuration-markup/
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
