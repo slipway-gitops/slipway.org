@@ -1,4 +1,4 @@
-baseURL = "http://slipway.org/"
+baseURL = "https://slipway.org/"
 languageCode = "en-us"
 title = "Slipway"
 theme = "hugo-theme-techdoc"
